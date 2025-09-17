@@ -73,6 +73,22 @@ body {
     background-color: black;
 }
 
+.qtyBtn {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 0.2em 0.5em;
+    margin: 0 0.2em;
+    border-radius: 0.3em;
+    cursor: pointer;
+    transition: background-color 300ms ease;
+}
+
+.qtyBtn:hover {
+    background-color: darkgray;
+}
+
+
 .removeBtn:hover,
 #emptyCart:hover {
     background-color: red;
